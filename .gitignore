@@ -54,3 +54,8 @@ ios/Flutter/flutter_export_environment.sh
 
 # Environment / secrets (use .env.json.example as template)
 .env.json
+
+# docs: yaml/md のみ管理対象、それ以外は除外
+docs/*
+!docs/*.yaml
+!docs/*.md
