@@ -501,6 +501,7 @@ class _ZigZagScreenState extends State<ZigZagScreen> {
                     vertical: 5, horizontal: 4),
                 child: Text(
                     '${startDt[0]} ${startDt[1]} ~ ${endDt[0]} ${endDt[1]}',
+                    softWrap: false,
                     style: const TextStyle(
                         color: AppColors.textPrimary, fontSize: 10)),
               ),
