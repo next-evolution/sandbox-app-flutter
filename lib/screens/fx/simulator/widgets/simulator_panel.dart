@@ -122,7 +122,7 @@ class SimulatorPanel extends StatelessWidget {
           children: [
             Row(
               children: [
-                _ColHeader('Contract', AppColors.simBlue1),
+                _ColHeader('Contract\n', AppColors.simBlue1),
                 _ColHeader('Loss\n${entry.lossPips > 0 ? entry.lossPips : ""}', AppColors.simRed),
                 _ColHeader('決済1\n${positions.isNotEmpty && positions[0].settlementPips > 0 ? positions[0].settlementPips : ""}', AppColors.simBlue1),
                 _ColHeader('決済2\n${positions.length > 1 && positions[1].settlementPips > 0 ? positions[1].settlementPips : ""}', AppColors.simBlue2),

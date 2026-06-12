@@ -33,13 +33,18 @@ Flutter でスマホ・タブレット向けアプリを作る。
 
 ```bash
 # Android 実機で起動
-flutter run -d HQ627E144D
+flutter run -d HQ627E144D --dart-define-from-file=.env.json
 
 # 静的解析
 flutter analyze
 
 # デバイス一覧
 flutter devices
+
+# Chrome で CORS を無効化して起動する
+flutter run -d chrome \
+            --web-browser-flag "--disable-web-security" \
+            --dart-define-from-file=.env.json
 ```
 
 ---
