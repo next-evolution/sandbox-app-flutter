@@ -59,4 +59,5 @@ ios/Flutter/flutter_export_environment.sh
 docs/*
 !docs/*.yaml
 !docs/*.md
+!docs/screen-shot
 !docs/screen-shot/*
