@@ -403,8 +403,15 @@ class _EIDataScreenState extends State<EIDataScreen> {
     );
   }
 
-  String _importanceLabel(String v) =>
-      v == 'H' ? '高' : v == 'M' ? '中' : '低';
+  String _importanceLabel(String v) => v == 'H'
+      ? '高'
+      : v == 'M'
+          ? '中'
+          : v == 'X'
+              ? '情'
+              : v == 'Z'
+                  ? '重'
+                  : v;
 
   String _formatPub(EconomicIndicatorData row) {
     try {
