@@ -31,8 +31,8 @@ Flutter でスマホ・タブレット向けアプリを作る。
 
 ## 共通仕様（横断・FE/BE共通の大枠仕様）
 
-@../claude-code/architecture/auth.md
-@../claude-code/architecture/api-design.md
+@../documents/architecture/auth.md
+@../documents/architecture/api-design.md
 
 ---
 
