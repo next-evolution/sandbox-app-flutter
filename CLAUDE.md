@@ -15,7 +15,7 @@ Flutter でスマホ・タブレット向けアプリを作る。
 | 実装時の落とし穴・制約 | **CLAUDE.md** |
 | ビルド・実行コマンド | **CLAUDE.md** |
 | 画面・Widget 仕様 | `docs/widgets.md` |
-| API仕様 | `docs/api-docs.yaml` |
+| API仕様 | `../documents/architecture/api-docs.yaml` |
 | プロジェクト構成・ルート定義 | **コードから読む**（`lib/app.dart`） |
 
 ---
@@ -25,7 +25,7 @@ Flutter でスマホ・タブレット向けアプリを作る。
 | 内容 | ファイル |
 |---|---|
 | 画面・Widget 仕様（ルート・API・Props） | [docs/widgets.md](docs/widgets.md) |
-| API仕様 | [docs/api-docs.yaml](docs/api-docs.yaml) |
+| API仕様 | [api-docs.yaml](../documents/architecture/api-docs.yaml) |
 
 ---
 

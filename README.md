@@ -149,4 +149,4 @@ Cognito の JWT トークン（ID Token）をリクエストヘッダーに自�
 | 内容 | ファイル |
 |---|---|
 | 画面・Widget 仕様（ルート・API・Props） | [docs/widgets.md](docs/widgets.md) |
-| バックエンド API 仕様 | [docs/api-docs.yaml](docs/api-docs.yaml) |
+| バックエンド API 仕様 | [api-docs.yaml](../documents/architecture/api-docs.yaml) |
