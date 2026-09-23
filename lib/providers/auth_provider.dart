@@ -65,7 +65,7 @@ class AuthProvider extends ChangeNotifier {
       _email = _emailFromRawToken(idToken);
 
       final emailB64 = base64.encode(utf8.encode(_email ?? ''));
-      final res = await _api.post('/v1/auth/login', {'email': emailB64});
+      final res = await _api.post('/v1/auth/login/app', {'email': emailB64});
       final rawCode = res['returnCode'];
       final returnCode = rawCode is int ? rawCode : int.parse(rawCode.toString());
 

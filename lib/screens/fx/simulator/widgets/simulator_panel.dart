@@ -266,20 +266,6 @@ class _PriceInputCell extends StatelessWidget {
   }
 }
 
-class _ResultLabel extends StatelessWidget {
-  final String label;
-
-  const _ResultLabel(this.label);
-
-  @override
-  Widget build(BuildContext context) {
-    return Padding(
-      padding: const EdgeInsets.only(right: 8),
-      child: Text(label, style: const TextStyle(color: AppColors.textSecondary, fontSize: 12)),
-    );
-  }
-}
-
 class _ResultValue extends StatelessWidget {
   final String value;
   final Color color;
